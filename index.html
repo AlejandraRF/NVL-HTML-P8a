@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Elementos bloque y línea</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+    }
+    .red {
+      color: red;
+    }
+    .blue {
+      color: blue;
+    }
+  </style>
+</head>
+
+<body>
+<div>
+  <p>Podemos meter elementos en línea dentro de elementos de bloque, por ejemplo un hipervínvulo: <a href="google.es">Google</a> o una imagen:
+    <img src="images/1.jpg" alt="imagen">. Incluso este párrafo que es un elemento en bloque, está dentro de un div que es otro elemento de bloque.</p>
+</div>
+
+<span class="red">El texto en rojo está dentro de un span (elemento en línea). Lo que no podemos es meter un elemento de bloque como el siguiente párrafo azul: <p class="blue">"párrafo"</p> dentro de este span ya que la línea se rompe.</span>
+</body>
+</html>
